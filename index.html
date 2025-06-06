@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>タブ切り替え</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">タブ切り替えコンテンツ</div>
+    <div class="tabs-container">
+      <div class="tab-buttons">
+        <button class="tab-button active" data-tab="tab1">タブ 1</button>
+        <button class="tab-button" data-tab="tab2">タブ 2</button>
+        <button class="tab-button" data-tab="tab3">タブ 3</button>
+      </div>
+      <div class="tab-content-container">
+        <div id="tab1" class="tab-content active">
+          <h2>タブ1のコンテンツ</h2>
+          <p>
+            ここはタブ1のコンテンツです。JavaScriptを使って表示が切り替わります。
+          </p>
+        </div>
+        <div id="tab2" class="tab-content">
+          <h2>タブ2のコンテンツ</h2>
+          <p>ここはタブ2のコンテンツです。異なる情報が表示されます。</p>
+        </div>
+        <div id="tab3" class="tab-content">
+          <h2>タブ3のコンテンツ</h2>
+          <p>ここはタブ3のコンテンツです。別の情報が含まれています。</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
